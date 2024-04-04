@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: antiquewhite;
+    line-height: 2;
+}
+
+.body--whiteBackground {
+    background-color: whitesmoke;
+}
+
+.header__header {
+    color: rgb(208, 146, 65);
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 1px rgb(150, 111, 61);
+    background-color: rgb(205, 191, 175);
+    padding: 10px;
+    box-shadow: 4px 4px 4px 8px rgb(196, 171, 140);
+}

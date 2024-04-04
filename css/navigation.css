@@ -1,0 +1,19 @@
+.navigation {
+    list-style: none;
+    color: rgb(127, 97, 60);
+    font-weight: bold;
+    padding: 0;
+}
+
+.navigation__element {
+    margin: 20px O;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(127, 97, 60);
+}
+
+.navigation__link:hover {
+    color: black;
+}

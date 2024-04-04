@@ -1,0 +1,19 @@
+.section__header {
+    color: rgb(142, 92, 27);
+    text-align: center;
+}
+
+.section__image {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.section__button {
+    background-color: rgb(226, 174, 43);
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    border: solid;
+    cursor: pointer;
+    padding: 2%;
+}

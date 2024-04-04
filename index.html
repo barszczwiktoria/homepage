@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header>
+        <h1 class="header__header">Homepage</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__element"><a class="navigation__link" href="#o-mnie">O mnie </a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#cele">Cele</a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#utwory">Utwory do śpiewania</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <h2 class="section__header" id="o-mnie">O mnie</h2>
+            <p>
+                W 2018 roku ukończyłam studia na kierunku <strong>Finanse, rachunkowość i ubezpiecznia</strong> na
+                Wydziale
+                Zarządzania Uniwersytetu Warszawsiego. W tym samym roku zaczęłam swoją pierwszą pracę w księgowości.
+                Obecnie
+                pracuję
+                na stanowisku Senior T&E Specialist.
+                Jestem osobą ambitną i konsekwętną, która lubi wyzwania, dlatego w międzyczasie uczylam się na wydziale
+                <b>wokalistyki estradowej</b> w Zespole Państwowych Szkół Muzycznyc im Fryderyka Chopina w Warszawie,
+                którą
+                ukończyłam w 2019 roku.
+                <br> Połączenie dwóch tak zupełnie rónych kierunków pokazało mi, że wszystko jest możliwe jeśli tylko
+                się chce
+                to
+                można osiągnąć wiele.
+                <br> <img class="section__image js-image" src="img/wiki.jpg" alt="Wiktoria Barszcz">
+                <br> <button class="section__button js-button">Usuń zdjęcie</button>
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section__header" id="cele">Cele</h2>
+            <p>
+                Możliwość rozwoju i doskonalenia swoic umiejętności jest dla mnie bardzo ważna, dlatego w najbliższym
+                czasie
+                chciałabym:
+                <br>- Nauczyc się programowania - <i>Frontend</i> to coś co mnie interesuje;
+                <br>- Osiągnąć poziom C1 w języku <em>angielskim</em>;
+                <br> - Osiągnąć poziom B1 w języku <em>hiszpańskim</em>;
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section__header" id="zainteresowania">Zainteresowania</h2>
+            <p>
+                Kocham podróże, do tej pory zwiedziłam 18 krajów, na liście do zobaczenia jest ich jeszcze 50.
+                <br> Muzyka to kolejna z moich pasji - śpiewam, głównie poezję śpiewaną i jazz; gram na gitrarze i swego
+                czasu
+                grałam na klawiszach.
+                <br> W wolnych chwilach czytam ksiąki oraz oglądam filmy - głównie dramaty i komedie.
+                <br> Również kocham zwierzęta i mam pieska "<b>Gucia</b>.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="utwory">Utwory do śpiewania</h2>
+            <div class="table__container">
+                <table class="table">
+                    <caption class="table__caption">Ulubione</caption>
+
+                    <tr class="table_row">
+                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                        <th class="table__cell table__cell--header" scope="col">Nagranie YT (otwiera się w nowej karcie)
+                        </th>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table__cell table__cell--row" scope="row" rowspan="2">Ewa Demarczyk</th>
+                        <td class="table__cell">Rebeka</td>
+                        <td class="table__cell">1975</td>
+                        <td class="table__cell"><a class="table__link" target="_blank"
+                                href="https://www.youtube.com/watch?v=HmDoSUsoGBU">Rebeka</a></td>
+                    </tr>
+                    <tr class="table_row">
+                        <td class="table__cell">Grand Valse Brillante</td>
+                        <td class="table__cell">1967</td>
+                        <td class="table__cell"> - </td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table__cell table__cell--row" scope="row">Tina Turner</th>
+                        <td class="table__cell">Simply the best</td>
+                        <td class="table__cell">1989</td>
+                        <td class="table__cell"><a class="table__link" target="_blank"
+                                href="https://youtu.be/fej5jLVgk20?si=oe2KD1qf8Qbof2uZ&t=622">The best</a></td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table__cell table__cell--row" scope="row">Billie Holiday</th>
+                        <td class="table__cell">Lover man</td>
+                        <td class="table__cell">1941</td>
+                        <td class="table__cell"><a class="table__link" target="_blank"
+                                href="https://www.youtube.com/watch?v=eYpRssn_Uxs">Lover men</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <p>
+                <button class="section__button js-buttonBackground">Zmień tło na <span
+                        class="js-themeName">jasne</span></button>
+            </p>
+            <p><button class="section__button js-buttonUp">Powrót do góry strony</button></p>
+        </section>
+    </main>
+    <footer class="footer">
+        © Wiktoria Barszcz 2024
+    </footer>
+</body>
+
+</html>
