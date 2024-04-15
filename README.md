@@ -17,4 +17,4 @@ This side for now is pretty simple but practice makes us perfect
 - ES6+ features
 
 
-![gif](images/homegif.gif)
+![gif](img/homegif.gif)
