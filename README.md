@@ -1,6 +1,7 @@
 # Homepage
 
-**This is my first webside which I created. Homepage - some informations about me and my path. **
+This is my first webside which I created. Homepage - some informations about me and my path. 
+My site is simple for now but practice makes us better 💪
 
 ## DEMO
 https://barszczwiktoria.github.io/homepage/
