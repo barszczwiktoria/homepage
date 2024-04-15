@@ -1,6 +1,6 @@
 # Homepage
 
-**This is my first webside which I created.**
+**This is my first webside which I created. Homepage - some informations about me and my path. **
 
 ## DEMO
 https://barszczwiktoria.github.io/homepage/
@@ -15,3 +15,7 @@ This side for now is pretty simple but practice makes us perfect
 - JavaScript
 - BEM
 - ES6+ features
+
+## 
+
+![gif](images/homegif.gif)
